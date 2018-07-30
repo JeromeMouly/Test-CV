@@ -1,0 +1,167 @@
+body {
+    background-color: #141619;
+}
+
+.header-cv {
+    background-color: #ffffff;
+    width: 100%;
+    height: 250px;
+}
+
+.photo-cv {
+    width: 200px;
+    height: auto;
+    border: #437cc0 2px solid;
+    margin-top: 100px;
+}
+
+.header-text {
+    background-color: #ffffff;
+    height: 250px;
+}
+
+.name-title {
+    font-family: 'Shrikhand', cursive;
+    font-size: 3rem;
+    color: #437cc0;
+}
+
+.job-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #141619;
+}
+
+.btn-cv-commerce,
+.btn-dl-webdesign {
+    background-color: transparent;
+    color: #437cc0;
+    border: #437cc0 2px solid;
+}
+
+.info-bar {
+    color: #ffffff;
+}
+
+.info {
+    margin-top: -92px;
+    padding-top: 100px;
+}
+
+.cursus {
+    background-color: coral;
+    height: 200px;
+    margin-top: -92px;
+}
+
+.contact-title,
+.skills-title,
+.languages-title {
+    overflow: hidden;
+    text-align: center;
+    color: #f1f1f1;
+    font-weight: 200;
+}
+
+.skills,
+.languages {
+    padding-top: 100px;
+}
+
+.skills-text,
+.languages-text {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.contact-title:before,
+.contact-title:after,
+.skills-title:before,
+.languages-title:after,
+.languages-title:before,
+.skills-title:after,
+.exp-title:after,
+.forma-title:after {
+    background-color: #437cc0;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.social-title:after {
+    background-color: #141619;
+    content: "";
+    display: inline-block;
+    height: 4px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.contact-title:before,
+.skills-title:before,
+.languages-title:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.contact-title:after,
+.skills-title:after,
+.languages-title:after,
+.exp-title:after,
+.forma-title:after,
+.social-title:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.contact-phone, .contact-mail {
+    padding-top: 50px;
+}
+
+.adresse {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.location {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.phone-number {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.phone {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.web {
+    position: relative;
+    background-color: #437cc0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.mail {
+    padding-top: 11px;
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+}
